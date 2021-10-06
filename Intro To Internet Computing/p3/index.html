@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>
+   Statistical Analysis Calculator
+    </title>
+             <script src = "script.js"></script> 
+<link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"/>    
+
+        <style>
+            body{ font-family: 'Rajdhani', sans-serif;
+                  background: rgb(0,0,0);
+                  border: 6px solid yellow;
+           text-align: center;
+                  }
+            h1{
+                text-align: center;
+                color: orangered;
+            }
+            div{ text-align: center;
+                 color: orangered;
+
+            }
+            button{color:orangered;
+                   background-color: yellow;
+            }
+            input{background-color:yellow;}
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+               
+                <h1 class="text-center">
+                    Statistical Analysis Calculator
+                </h1>
+
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row" >
+                <div class="col-s" >
+                    <label>Number 1: </label> <input type="number" id="txtnum1"><br>
+                </div>
+                <div class="col-s">
+                    <label>Number 2: </label><input type="number" id="txtnum2"><br>
+                </div>
+                <div class="col-s">
+                    <label>Number 3: </label><input type="number" id="txtnum3"><br>
+                </div>
+                <div class="col-s">
+                   <br>
+                    <button type="submit" onclick="analyzeData()"> Calculate</button>
+                </div>
+
+            </div>
+        </div>
+
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style='background-color: darkgreen'>
+                    <h3>RESULTS:</h3> 
+                
+
+                    <p id="max"></p>
+                    <p id="min"></p>
+                    <p id="mean"></p>
+                    <p id="median"></p>
+                    <p id="range"></p>
+
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+       
+
+    </body>
+</html>

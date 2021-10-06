@@ -1,0 +1,39 @@
+h1
+{
+   font-family: "lucida handwriting";
+    text-align: center;
+color:aqua;
+}
+h2
+{
+    font-family: "courier";
+    text-align: center;
+color:rgb(229, 255, 0);
+}
+body{
+  
+    background-image: url("portalpic.png");
+}
+p{
+    font-family: "courier";
+    color: gold;
+    text-align: center;
+}
+div
+{
+    border-width: 10px;
+    border-style: double;
+border-color: rgb(255, 255, 255);}
+h3{
+text-align: center;
+color: greenyellow;
+border-radius: 5px;
+font-family: 'Courier New'
+}
+a
+{
+    border-style: solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: red;
+    border-width: 5px;
+}
